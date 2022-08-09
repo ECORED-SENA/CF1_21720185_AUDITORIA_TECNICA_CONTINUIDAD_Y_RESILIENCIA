@@ -198,12 +198,6 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_d758e713c67b4661a27b548a2bd396fe',
     },
-    {
-      tema: 'tema',
-      referencia: 'ref',
-      tipo: 'tipo',
-      link: 'https',
-    },
   ],
   glosario: [
     {
@@ -327,7 +321,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

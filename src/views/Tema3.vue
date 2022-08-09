@@ -131,11 +131,11 @@
           .col-md-2.col-4(data-aos="fade-right")
             img(src='@/assets/curso/tema3/img11.png')
           .col-md-10(data-aos="fade-left")
-            p La recuperación del sistema en algunas ocasiones puede generar ciertos traumatismos en los procesos de continuidad del negocio. Dentro de la planificación deben existir algunas características a tener en cuenta, una de esas es que muchos de los dispositivos pueden ser respaldados para una recuperación más rápida, por ejemplo, los equipos de gran prioridad como servidores, switches y dispositivos de conexión; este tiempo será valioso para los procesos de negocio de la organización.
+            p La recuperación del sistema en algunas ocasiones puede generar ciertos traumatismos en los procesos de continuidad del negocio. Dentro de la planificación deben existir algunas características a tener en cuenta, una de esas es que muchos de los dispositivos pueden ser respaldados para una recuperación más rápida, por ejemplo, los equipos de gran prioridad como servidores, #[i switches] y dispositivos de conexión; este tiempo será valioso para los procesos de negocio de la organización.
     
     separador
     #t_3_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
-      h2 3.3.	Objetivos
+      h2 3.3.	Gestión de cambios
     
     p Es un aspecto importante en un SGCN, ya que este permite realizar las correcciones y mejoras que el sistema pueda requerir en el entorno y tiempo de ejecución. En este punto es importante tener todas las actividades alineadas con dicho propósito de cambio; la responsabilidad de que este proceso tenga éxito dependerá de cómo se afronten los riesgos y problemas en la implementación y puesta en marcha del SGCN. Los cambios realizados en el sistema de gestión son producto de pruebas y diagnósticos periódicos realizados al sistema de gestión, en los que se llevan registros de los sucesos para tener un histórico. En algunas ocasiones se debe contemplar la idea de que un cambio puede tener los siguientes niveles de aplicación:
 

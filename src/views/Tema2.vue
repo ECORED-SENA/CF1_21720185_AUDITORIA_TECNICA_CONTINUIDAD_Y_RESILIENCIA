@@ -27,7 +27,7 @@
           img(src='@/assets/curso/tema2/img02.svg')
       div(x="9%" y="68.5%" tooltip="Contexto de la organización")
         h5 Contexto de la organización
-        p Tiene como objetivo ubicar a la empresa no solo en los aspectos de funcionamiento y jerarquía organizacional, sino también verificar que los procesos que esta lidera sean correspondientes a la realidad de la organización. Uno de los pilares de estos componentes es la meta o propósito misional de la organización donde se deben definir de manera clara cuál es el papel de la empresa dentro de su razón de ser, es decir, para qué se crea la compañía y cuál es su misión, lo que a su vez genera varios interrogantes, los cuales están enmarcados dentro de la siguiente pregunta: ¿qué requiere la organización para lograr dichos objetivos? 
+        p Tiene como objetivo ubicar a la empresa no solo en los aspectos de funcionamiento y jerarquía organizacional, sino también verificar que los procesos que esta lidera sean correspondientes a la realidad de la organización. Uno de los pilares de estos componentes es la meta o propósito misional de la organización donde se deben definir de manera clara cuál es el papel de la empresa dentro de su razón de ser, es decir, para qué se crea la compañía y cuál es su misión, lo que a su vez genera varios interrogantes, los cuales están enmarcados dentro de la siguiente pregunta: ¿qué requiere la organización para lograr dichos objetivos?.
         p Aquí también entra el diagnóstico para determinar cuáles son los recursos humanos, financieros, herramientas y servicios necesarios para lograr ese objetivo misional. Desde esta primera instancia se hace necesario que exista un compromiso sincero de la dirección de la organización, puesto que se deben calcular los montos de dichos recursos.
       div(x="35.5%" y="33.5%" tooltip="Liderazgo")
         h5 Liderazgo
@@ -63,7 +63,7 @@
           li 
             i.lista-ul__vineta
             | Realizar un plan de auditoría para establecer las fechas y verificación de procesos que se someterán a verificación y emitir el informe respectivo con los cambios que requiere el sistema para operar de manera equilibrada y segura.
-          p Se pueden solicitar dos tipos diferentes de auditoría: interna o externa, dependiendo de la necesidad que se tenga en ese momento. Cada una de ellas entra a realizar una revisión mucho más al detalle de la operación de los procesos, en el que también se incluye una evaluación por parte de la dirección con el objetivo de verificar si se están cumpliendo los objetivos planteados en el SGCN. Se debe garantizar que esa inversión si esté generando los frutos esperados; aquí se confrontan los resultados operativos en medición de la inversión realizada para su implementación.
+          p <span style="color:#000">Se pueden solicitar dos tipos diferentes de auditoría: interna o externa, dependiendo de la necesidad que se tenga en ese momento. Cada una de ellas entra a realizar una revisión mucho más al detalle de la operación de los procesos, en el que también se incluye una evaluación por parte de la dirección con el objetivo de verificar si se están cumpliendo los objetivos planteados en el SGCN. Se debe garantizar que esa inversión si esté generando los frutos esperados; aquí se confrontan los resultados operativos en medición de la inversión realizada para su implementación.</span>
 
       div(x="76.3%" y="68.5%" tooltip="Mejora continua")
         h5 Mejora continua
@@ -95,6 +95,8 @@
     separador
     #t_2_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
       h2 2.3.	Liderazgo
+    
+    p Siempre se ha escuchado que las empresas requieren líderes y procesos que permitan llevar a cabo ciertos componentes dentro de las organizaciones; pero la mayoría de veces el enfoque que se utiliza para el liderazgo es más llevado a una cadena de mando en donde existen personas que generan la creación de los procesos y otros que los ejecutan.
     
     .row.justify-content-center.mb-4
       .col-md-10
