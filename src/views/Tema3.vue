@@ -45,14 +45,14 @@
     p La planificación es uno de los procesos que puede generar mayor atención en la implementación de un SGCN, ya que en dicho componente se deben analizar todos los procesos que van a requerir ser gestionados y controlados de manera integrada. También se definen todas las necesidades funcionales que deben abarcar el sistema de gestión, requiriendo una negociación, de alguna manera, con los directivos de la organización para apartar los recursos financieros que se utilizarán en la compra, adquisición y contratación del personal requerido. Todo lo anterior conectado con los objetivos misionales de la organización. Finalmente, es importante establecer un cronograma de trabajo donde se coloquen metas alcanzables y que en cada una de ellas se asignen los responsables y recursos necesarios, según la fase de implementación.
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1.	Riesgo vs. oportunidades
     
     p Aunque la lista de todos los factores que pueden incidir en que los procesos del negocio o la planeación de un sistema de continuidad fracase puede llegar a ser innumerable, son los que se presentan con mayor frecuencia en las organizaciones, siendo el compromiso de la organización el que mayor incidencia puede generar. Hoy  en día se puede decir que la mayoría de los planes de contingencia están directamente relacionados con la tecnología, ya que esta se ha convertido en un bien transversal en los procesos de negocio y en estrategia competitiva, de allí parte la premisa de que los planes de contingencia se direccionan a ese componente tan fundamental en el funcionamiento de la empresa del Siglo XXI.
 
     .row.justify-content-center.mb-4
       .col-md-8
-        .bloque-texto-g.color-acento-contenido.item-right.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-botones.item-right.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img05.jpg')})`}"
           )(data-aos="fade-left")
@@ -64,7 +64,7 @@
     p Ahora bien, en todo proceso empresarial existen riesgos y oportunidades. En el siguiente interactivo se expone en qué consiste cada uno de ellos, de acuerdo con un ejemplo dado.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-3.col-6.mb-4.mb-md-0.order-md-1.order-2.px-md-0(data-aos="fade-right")
+      .col-md-3.mb-4.mb-md-0.order-md-1.order-2.px-md-0(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -74,7 +74,7 @@
               p.my-4 Las oportunidades que genera la implementación de un SGCN no solo se pueden ver desde el punto de vista de operación de los procesos de negocio, sino que están estrechamente relacionadas con la ganancia y los recursos que recibe la organización al momento de ejecutar sus servicios y productos. En ocasiones, las oportunidades se relacionan con los procesos administrativos de la organización.
       .col-md-4.col-8.mb-4.mb-md-0.order-md-2.order-1.px-md-0(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/img08.png')
-      .col-md-3.col-6.order-3.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
+      .col-md-3.order-3.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -92,7 +92,7 @@
         p Los riesgos en algunas ocasiones se pueden convertir en oportunidades. Esto quiere decir que la planeación e implementación de un sistema de gestión de continuidad favorece de manera positiva la competitividad del negocio, lo cual se ve reflejado en el uso de referentes internacionales tales como la Norma ISO 22301, en donde la mejora continua permite evidenciar su evolución, los riesgos que pueden presentarse en corto y mediano plazo y la creación e implementación estrategias, logrando que la organización siempre esté un paso delante de las situaciones de riesgo que se puedan presentar y evitar pausas o interrupciones en los procesos del negocio.
       
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2.	Objetivos de la continuidad del negocio
     
     p.mb-5 Se pueden resumir en las necesidades que una organización tiene y que debe afrontar para mantenerse presente en el mercado. Toda organización se ve amenazada por los diferentes agentes internos y externos que pueden generar situaciones que coloquen en riesgo la continuidad del negocio. Estos objetivos deben estar conectados con la realidad de la organización y los objetivos misionales de la misma, siendo así, en el siguiente recurso se exponen algunos de estos:
@@ -100,8 +100,8 @@
     .row.justify-content-center.mb-4
       .col-md-10.mb-4(data-aos="zoom-in")
         img(src='@/assets/curso/tema3/img09.svg')
-      .col-md-10
-        p Los objetivos de la continuidad del negocio garantizan que este mantenga su funcionalidad y evite interrupciones que puedan  afectar los objetivos misionales de la organización. Es importante tener presente que todo esto se ve reflejado en la calidad de los servicios que ofrece la empresa. En la mayoría de veces los procesos de negocio solo aplican en algunos de los objetivos y dejan de lado los demás y esto puede ocasionar, algunas veces, que no se reflejen las ventajas que ofrece de manera conjunta el sistema de gestión.
+      .col-md-10.BG13.p-4
+        p.mb-0 Los objetivos de la continuidad del negocio garantizan que este mantenga su funcionalidad y evite interrupciones que puedan  afectar los objetivos misionales de la organización. Es importante tener presente que todo esto se ve reflejado en la calidad de los servicios que ofrece la empresa. En la mayoría de veces los procesos de negocio solo aplican en algunos de los objetivos y dejan de lado los demás y esto puede ocasionar, algunas veces, que no se reflejen las ventajas que ofrece de manera conjunta el sistema de gestión.
     
     p Es importante que dentro de los objetivos de la continuidad del negocio se establezcan límites para que no existan traumatismos al momento de la implementación de un SGCN. Estos deben tener claro cuáles son los procesos que serán soportados por el plan de continuidad, ya que una vez este esté en operación contemple solo aquellos que se negociaron en el plan. Por ejemplo, si se asignan recursos para un plan de gestión de tres procesos críticos del negocio, no se puede pretender que este soporte cinco, ya que fue diseñado para estos en particular y puede que la operatividad se vea comprometida de alguna manera.
     p Ahora bien, en caso de que un incidente ocurra, el objetivo principal cambiará pues se priorizará la emergencia, tal como se presenta a continuación:
@@ -126,21 +126,21 @@
                 p No solo basta confiar en la recuperación del sistema, sino que también es necesario realizar pruebas para garantizar que se ha recuperado de manera correcta.
 
     .row.justify-content-center.mb-4
-      .col-md-10.cajon-acento-botones.p-4
+      .col-md-10.cajon.color-acento-botones.p-4
         .row.justify-content-center
           .col-md-2.col-4(data-aos="fade-right")
-            img(src='@/assets/curso/tema3/img11.png')
+            img.img90(src='@/assets/curso/tema3/img11.png')
           .col-md-10(data-aos="fade-left")
-            p La recuperación del sistema en algunas ocasiones puede generar ciertos traumatismos en los procesos de continuidad del negocio. Dentro de la planificación deben existir algunas características a tener en cuenta, una de esas es que muchos de los dispositivos pueden ser respaldados para una recuperación más rápida, por ejemplo, los equipos de gran prioridad como servidores, #[i switches] y dispositivos de conexión; este tiempo será valioso para los procesos de negocio de la organización.
+            p.mb-0 La recuperación del sistema en algunas ocasiones puede generar ciertos traumatismos en los procesos de continuidad del negocio. Dentro de la planificación deben existir algunas características a tener en cuenta, una de esas es que muchos de los dispositivos pueden ser respaldados para una recuperación más rápida, por ejemplo, los equipos de gran prioridad como servidores, #[i switches] y dispositivos de conexión; este tiempo será valioso para los procesos de negocio de la organización.
     
     separador
-    #t_3_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3.	Gestión de cambios
     
     p Es un aspecto importante en un SGCN, ya que este permite realizar las correcciones y mejoras que el sistema pueda requerir en el entorno y tiempo de ejecución. En este punto es importante tener todas las actividades alineadas con dicho propósito de cambio; la responsabilidad de que este proceso tenga éxito dependerá de cómo se afronten los riesgos y problemas en la implementación y puesta en marcha del SGCN. Los cambios realizados en el sistema de gestión son producto de pruebas y diagnósticos periódicos realizados al sistema de gestión, en los que se llevan registros de los sucesos para tener un histórico. En algunas ocasiones se debe contemplar la idea de que un cambio puede tener los siguientes niveles de aplicación:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-6.col-10.px-0(data-aos="fade-right")
+      .col-md-6.col-10.px-0.mb-md-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema3/img12.svg')
       .col-md-6.col-10.px-0(data-aos="fade-left")
         .BG03-1.p-4
@@ -181,7 +181,7 @@
     p En otras palabras, todo plan de contingencia deberá ser modificado de acuerdo con los cambios y necesidades contenidas en el plan de contingencia para así garantizar el correcto funcionamiento del plan.
 
     separador
-    #t_3_4.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.4. Documentación, comunicación y concienciación
     
     p Estos tres aspectos son parte de la estrategia del plan de continuidad del negocio, ya que permiten que su ejecución y mantenimiento se den de la mejor manera posible. En el siguiente video se explica cómo cada uno de estos cumple un papel fundamental en el SGCN:

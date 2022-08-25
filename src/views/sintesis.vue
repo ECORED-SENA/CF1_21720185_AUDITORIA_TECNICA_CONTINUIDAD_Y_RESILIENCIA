@@ -5,10 +5,12 @@
 
     p En el desarrollo de este componente se ha expuesto la importancia de implementar los sistemas de gestión según la normatividad y los requerimientos técnicos, teniendo en cuenta los diferentes aspectos y procesos involucrados en el mismo. Vea entonces de manera conceptual, lo expuesto en las diferentes temáticas abordadas:
 
-    .row.justify-content-center
-      .col-lg-8.mb-5
+    .row.justify-content-center.mb-5
+      .col-lg-8
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+      
+    .row.justify-content-center  
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

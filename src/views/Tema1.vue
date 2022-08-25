@@ -148,12 +148,12 @@
 
     .row.justify-content-center.cajon.color-primario.p-4.mb-4
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img17.png')
+        img.w-75(src='@/assets/curso/tema1/img17.png')
       .col-md-10.col-11
-        p Por tanto, no es obligatorio que una organización implemente un SGCN; pero sí es es necesario para ser competitivos, eficientes y confiables, ya que se puede garantizar la continuidad de los procesos misionales de una organización. La implementación de un plan de continuidad al negocio trae consigo muchos aspectos positivos que valen la pena analizar y tener en cuenta. Hoy en día las empresas e industrias se han vuelto más competitivas y esto hace que sea necesario el invertir en maquinaria, personas y servicios para lograr mantenerse en los mercados actuales, sin dejar de lado, por supuesto, la calidad y eficiencia en la que se prestan los servicios, los cuales a su vez se fundamentan en las políticas, procesos y estrategias estipuladas por la empresa.      
+        p.mb-0 Por tanto, no es obligatorio que una organización implemente un SGCN; pero sí es es necesario para ser competitivos, eficientes y confiables, ya que se puede garantizar la continuidad de los procesos misionales de una organización. La implementación de un plan de continuidad al negocio trae consigo muchos aspectos positivos que valen la pena analizar y tener en cuenta. Hoy en día las empresas e industrias se han vuelto más competitivas y esto hace que sea necesario el invertir en maquinaria, personas y servicios para lograr mantenerse en los mercados actuales, sin dejar de lado, por supuesto, la calidad y eficiencia en la que se prestan los servicios, los cuales a su vez se fundamentan en las políticas, procesos y estrategias estipuladas por la empresa.      
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1.	Procesos que componen un SGCN
     
     p Son de alguna manera estrategias que permiten establecer un lineamiento seguro y coherente para todas las actividades, que resultan necesarias para que el sistema tenga éxito, en todo el sentido de la palabra. Los componentes deben estar directamente relacionados para que cada uno de ellos pueda desarrollarse de manera plena y así se puedan lograr los objetivos establecidos en la ejecución del mismo. A continuación se describe cada uno de los procesos que componen dicho sistema de gestión:
@@ -205,7 +205,7 @@
         p Se comprende como emergencia a toda situación en la cual se coloca en riesgo la integridad y correcto funcionamiento de los procesos de negocio de la organización. Se debe considerar que los riesgos establecidos pueden generar diferentes protocolos de activación de las respuestas, pues no es lo mismo un proceso de recuperación para un riesgo bajo que para un proceso de riesgo alto. Los tiempos de respuesta y recuperación estarán sujetos a la complejidad que se puede tener en dicho proceso de recuperación.
 
     separador
-    #t_1_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2.	La Norma ISO 22301
 
     p Es una norma internacional que provee los lineamientos y procedimientos para la gestión de continuidad del negocio. Esta norma define todos los procesos a realizar, desde la definición del alcance hasta la implementación del plan y puesta en marcha del mismo. Asimismo, establece cómo administrar, gestionar y garantizar que la recuperación del negocio se realice de la manera adecuada; pues, en algunas ocasiones, se implementan estos procesos pero no son regidos del todo por la normatividad, lo cual es un error, ya que al ser estándares internacionales garantiza que el proceso sea el mismo, independientemente de la ubicación y procesos de negocio de la organización, de esta manera se garantiza la calidad, definición y ejecución de los planes de contingencia con un referente internacional.
@@ -221,29 +221,9 @@
 
     p En el siguiente interactivo se pueden apreciar los procesos que acompañan la ejecución de la norma ISO 22301:
 
-    .row.justify-content-center.mb-4
-      .col-md-6.col-8(data-aos="zoom-in")
-        ImagenInfograficaB.color-acento-botones.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img23.svg')
-          div(x="19%" y="33%" tooltip="Actuar")
-            .h5.mb-2 Actuar
-            p Aquí se realizan las correcciones de acuerdo con los hallazgos presentados en los anteriores componentes. Esto hace parte de los procesos de mejora continua en la Norma ISO 22301 y que permiten dinamizar sus procesos. En el actuar también se tiene en cuenta las correcciones que se deben realizar para mejorar los procesos de negocio de la organización, es decir, qué aspectos se encuentran bien y cuáles se deben modificar o analizar para que la totalidad de las  funciones de la organización tengan un correcto funcionamiento. 
-            p Adicional a ello, se debe registrar en una matriz de riesgo si existen nuevos potenciales riesgos detectados al momento de realizar el análisis; de ahí la importancia de que este proceso sea cíclico y constante, en periodos establecidos, así se mantendrá vigente y actualizado todo lo referente a los riesgos y oportunidades de mejora de la organización.
-          div(x="87%" y="33%" tooltip="Planear")
-            .h5.mb-2 Planear
-            p Los procesos que acompañan la ejecución de la Norma ISO 22301 empiezan por una planeación de las actividades, en el que se llevará a cabo un análisis de los procesos de negocio con los que cuenta la organización y se establece si esta tiene una política de continuidad del negocio. Adicional a ello, se estudian los diferentes riesgos a los cuales se encuentra expuesto el negocio y su nivel de complejidad (bajo, medio y alto), referente que dará un parte del tratamiento que estos deben tener y un estimado de lo que podría ser su presupuesto.
-            p Por ejemplo, si la mayoría de riesgos se encuentran en la categoría medio y alto quiere decir que el negocio tiene un riesgo bastante considerable y que se debe cambiar el enfoque de funcionamiento tanto a nivel de la tecnología como a nivel estructural en la forma cómo se administran los mismos; pero en caso de detectar que la mayoría de los riesgos están en la escala de bajo impacto se concentrará el proceso en aquellos que pueden generar riesgos de mayor escala y que sumados puedan provocar un proceso de complejidad tan grande que puede realizar un colapso del sistema.
-          div(x="19%" y="70%" tooltip="Verificar")
-            .h5.mb-2 Verificar
-            p En el componente de verificación se realiza una exhaustiva validación de que las actividades y procesos que se planearon se ejecutaron de manera satisfactoria. Es importante tener en cuenta que la verificación debe estar supervisada, de tal manera que se garantice que los resultados obtenidos de ese análisis sean acordes a los resultados esperados, siendo estos demostrables y no producto de datos inflados o adulterados. 
-            p En esta fase se debe crear un comité de verificación para que vigile si se están dando los datos precisos al momento de realizar el proceso de verificación.
-          div(x="85%" y="70%" tooltip="Hacer")
-            .h5.mb-2 Hacer
-            p En el proceso del hacer se encuentra la ejecución de las actividades diseñadas para cumplir de manera eficiente todos los procesos que se planearon en el paso anterior. Es de suma importancia tener en cuenta que para la ejecución de dichos procesos o actividades se debe contar con los recursos necesarios para esto, pueden ser humanos, tecnológicos y en algunas ocasiones, servicios de terceros, a los cuales se les involucra, ya que en muchas ocasiones las empresas subcontratan ciertos procesos por temas de costos operacionales. Estos últimos igualmente están involucrados en la ejecución de las actividades y por ende, en los procesos que garanticen la continuidad del negocio.
-            p Las normas y estándares garantizan que los procesos cumplan con los protocolos y funciones correctas. En ese sentido, se debe comprender que estas normas no nacen como parte del azar sino como parte de estudios y pruebas que se realizan a los procesos, y de acuerdo con estos resultados obtenidos se realizan ajustes en los mismos para garantizar el cumplimiento y su óptima ejecución. Ahora bien, las normas también son actualizadas de acuerdo con la realidad y procesos que se estén manejando y que requieran mejoras para garantizar que aún se mantienen vigentes en el tiempo. Una organización que utiliza normas y certifica sus procesos tiene mejor oportunidades de negocio, ya que la mayoría de organizaciones a nivel mundial exigen que se garanticen los procesos y que estos se encuentren regidos por estándares internacionales, logrando respaldo, prestigio y unificación de criterios.
-
+    .botones-hover.my-5
+      Botones(data-aos="fade-right")
+    
     p Teniendo en cuenta que las eventualidades que colocan en riesgo los procesos de negocio cambian constantemente, es importante que el proceso de mejora continua contemple la necesidad de darle prioridad a la implementación de los SGCN, ya que esto no es algo que se realiza una vez, sino que hace parte de un proceso continuo que puede cambiar en el tiempo, tal como lo presenta el siguiente recurso:
 
     .row.justify-content-center.mb-4
@@ -265,46 +245,47 @@
         p Esta situación aplica para los procesos de negocio, los cuales deben estar constantemente verificando sus procesos y riesgos para mejorarlos y prevenirlos cada día.
  
     separador
-    #t_1_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3.	Propósito de la Norma ISO 22301
     
     p Como se abordó en anteriores conceptos, esta norma permite establecer un plan de seguimiento a los procesos después de realizar un análisis del riesgo donde se visualicen los diferentes escenarios que se pueden presentar. Por tanto, se debe entender que uno de los objetivos principales de la continuidad del negocio es garantizar la estabilidad de sus procesos y generar confianza en la inversión del mismo, tanto para clientes como para la misma empresa en sí. Dentro de estos objetivos también se deben abordar algunas premisas importantes a tener en cuenta, tales como:
 
     .row.justify-content-center.mb-4
-      .col-md-10
+      .col-md-10.mb-md-0.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img28.svg')
+      .col-md-10
         .BG03.p-4(data-aos="fade-right")
           p.mb-0 Gracias a la implementación de esta norma las organizaciones pueden ejecutar los procesos misionales de manera plena, garantizando que estos no tendrán interrupciones en el transcurso de los tiempos establecidos para prestar dichos servicios.
 
     p Ahora bien, en cuanto a los propósitos de la norma se encuentran los siguientes:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-md-10(data-aos="zoom-in")
         img(src='@/assets/curso/tema1/img29.svg')
-      .col-md-8.img02
-        SlyderF.mb-5(columnas="col-12")
+      .col-md-8.img02.mb-md-0.mb-4
+        SlyderF(columnas="col-12")
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 01.] Mejorar la interacción de los equipos de trabajo involucrados en el aseguramiento de dichos procesos, afectando de forma positiva la manera en cómo se visualiza el negocio, tanto para los clientes como para los inversionistas y público en general. 
+              p.mb-0 #[strong 01.] Mejorar la interacción de los equipos de trabajo involucrados en el aseguramiento de dichos procesos, afectando de forma positiva la manera en cómo se visualiza el negocio, tanto para los clientes como para los inversionistas y público en general. 
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 02.] Contar con unas expectativas claras y acertadas sobre cómo se debe realizar el direccionamiento de los procesos estratégicos de la organización. 
+              p.mb-0 #[strong 02.] Contar con unas expectativas claras y acertadas sobre cómo se debe realizar el direccionamiento de los procesos estratégicos de la organización. 
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 03.] Garantizar que los objetivos misionales de la organización sean claros para todos los grupos de interés y así garantizar la continuidad del negocio.
+              p.mb-0 #[strong 03.] Garantizar que los objetivos misionales de la organización sean claros para todos los grupos de interés y así garantizar la continuidad del negocio.
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 04.] Diagnosticar de manera adecuada el correcto funcionamiento y gestión de los procesos del negocio.
+              p.mb-0 #[strong 04.] Diagnosticar de manera adecuada el correcto funcionamiento y gestión de los procesos del negocio.
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 05.] Ser más productivos. Al existir menores interrupciones en los procesos de negocio y contar con un sistema de respaldo que garantice la recuperación del negocio en tiempos razonables la empresa podrá funcionar sin inconvenientes, generando mayor flujo de trabajo y calidad en los servicios y/o productos ofrecidos y garantizando la competitividad. 
+              p.mb-0 #[strong 05.] Ser más productivos. Al existir menores interrupciones en los procesos de negocio y contar con un sistema de respaldo que garantice la recuperación del negocio en tiempos razonables la empresa podrá funcionar sin inconvenientes, generando mayor flujo de trabajo y calidad en los servicios y/o productos ofrecidos y garantizando la competitividad. 
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 06.] Realizar procesos de autoevaluación para garantizar los procesos que se encuentran inmersos en el plan de gestión.
+              p.mb-0 #[strong 06.] Realizar procesos de autoevaluación para garantizar los procesos que se encuentran inmersos en el plan de gestión.
           .row.justify-content-center.BG03.p-4
             .col-11
-              p #[strong 07.] Fortalecer la interacción de todos los entes que hacen parte del proceso, desde la directiva principal de la organización hasta los involucrados de manera aislada, tales como contratistas o empresas prestadoras de servicio, siempre y cuando se encuentren involucrados en los procesos que tienen que ver con la continuidad del negocio.
+              p.mb-0 #[strong 07.] Fortalecer la interacción de todos los entes que hacen parte del proceso, desde la directiva principal de la organización hasta los involucrados de manera aislada, tales como contratistas o empresas prestadoras de servicio, siempre y cuando se encuentren involucrados en los procesos que tienen que ver con la continuidad del negocio.
 
     .row.justify-content-center.align-items-center.cajon.color-secundario.p-4.mb-4
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
@@ -328,9 +309,9 @@
           .bloque-texto-g__texto.p-5
             p.mb-0 La norma es una necesidad fundamental si se desea tener procesos certificados y con un referente internacional, que genera prestigio y garantiza resultados concretos y efectivos. De ahí que el compromiso que asuma la alta dirección de la organización sea lo suficientemente consolidado para lograr alcanzar no solo la inversión necesaria en su implementación, sino también la cohesión y concienciación de su importancia en todo el personal y miembros de la organización. 
 
-    .row.justify-content-center.cajon.color-acento-botones.p-4.mb-4
+    .row.justify-content-center.align-items-center.cajon.color-acento-botones.p-4.mb-4
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img33.png')
+        img.w-75(src='@/assets/curso/tema1/img33.png')
       .col-md-10.col-11
         p Gestión de la continuidad del negocio - ISO 22301:2019
         p Si se desea explorar un poco más sobre los procesos de la Norma ISO 22301 para la continuidad del negocio, se sugiere consultar el video denominado Gestión de la continuidad del negocio - ISO 22301:2019 Plan de continuidad del negocio ISO 22301. Recurso que podrá ubicar en los materiales complementarios del componente.
@@ -366,7 +347,7 @@
           p El proceso debe buscar no solo garantizar la recuperación del servicio, sino que este se encuentra operable de manera completa para todos los usuarios.
 
     separador
-    #t_1_4.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4.	Beneficio para las empresas que implementan un SGCN
 
     p Hoy en día las empresas tratan de destacarse en el ámbito competitivo y en la calidad delos  servicios a sus clientes, permitiendo ingresar a nuevos mercados, manejar una mayor cantidad de clientes, ampliar el portafolio de servicios, y por ende, obtener un mayor crecimiento; lo que a su vez acarrea una gran responsabilidad debido al nivel de calidad de los servicios que se ofrecen en la organización. Por tanto, la contratación de personal, la adquisición de equipos y los procesos requerirán de mayor control y eficiencia, que se incluye y evidencia en el plan de gestión.
@@ -410,21 +391,22 @@
             p Este factor es fundamental para que un SGCN tenga una implementación adecuada, debido a que se pueden realizar todos los procesos y estatutos de la norma; sin embargo,  si no existe un compromiso real de los dirigentes y personal de la organización, no se podrá realizar un proceso adecuado de implementación de la norma en dicha organización. 
             p Es importante que todos los organismos y dependencias de la empresa estén inmersos y comprometidos, debido a los beneficios que esta le ofrece a la organización. En muchos casos no es visible la ganancia o ventaja que brinda la norma, debido al proceso de maduración de su implementación, lo cual puede llevar un tiempo en realizarse de manera completa y satisfactoria, pero vale la pena la espera e inversión de la misma.
 
-    .row.justify-content-center.BG04.p-4
+    .row.justify-content-center.align-items-center.BG04.p-4
       .col-md-2.col-4.mb-4.mb-md-0(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img44.png')
+        img.img90(src='@/assets/curso/tema1/img44.png')
       .col-md-10
         .h4 Recuerde que
-        p Cada factor es fundamental para el correcto funcionamiento y gestión de un SGCN. Es esencial que todos los entes e involucrados en la organización sean conscientes de la importancia de la implementación de referentes internacionales que garanticen que las actividades y procesos que se realizan en la organización sean ejecutados con calidad y compromiso. El uso de la Norma ISO 22301 garantiza en la organización que la implementación se dé bajo los pilares de seguridad, transparencia y confianza.
-
-
+        p.mb-0 Cada factor es fundamental para el correcto funcionamiento y gestión de un SGCN. Es esencial que todos los entes e involucrados en la organización sean conscientes de la importancia de la implementación de referentes internacionales que garanticen que las actividades y procesos que se realizan en la organización sean ejecutados con calidad y compromiso. El uso de la Norma ISO 22301 garantiza en la organización que la implementación se dé bajo los pilares de seguridad, transparencia y confianza.
 
 </template>
 
 <script>
+import Botones from '../components/Botones.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: {
+    Botones,
+  },
   data: () => ({
     // variables de vue
   }),

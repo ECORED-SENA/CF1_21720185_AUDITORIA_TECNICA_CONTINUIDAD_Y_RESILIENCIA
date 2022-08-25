@@ -16,7 +16,7 @@
           p La empresa como gestora de procesos e implementadora de sistemas necesita mantener dentro de su entidad una alineación integral entre sus procesos de servicio, las necesidades de la organización, el alcance de sus planes y los objetivos misionales de la misma, contribuyendo a equipos de trabajo cohesionados, en donde el liderazgo y los roles que desempeña cada uno son aspectos primordiales.
     
     separador
-    #t_2_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1.	Necesidades del negocio 
     
     p Existen diferentes tipos de necesidades en una organización desde el enfoque de un SGCN. A continuación se desarrollan dichos aspectos.
@@ -72,7 +72,7 @@
     p Se puede decir, entonces, que las necesidades del negocio deben estar encaminadas a la mejora de los procesos de la organización. Los sistemas de gestión de la continuidad del negocio, como ente transformador de cambio organizacional, permite que todos los procesos del negocio estén respaldados; sin embargo, en la mayoría de los casos esto no es posible debido a los recursos con los que cuentan las empresas para la implementación de dichos planes; razón por la cual se hace necesario, antes que nada, el establecimiento de un diagnóstico que permita priorizar aquellos procesos que son de carácter crítico para el negocio y así, enfocarse de manera prioritaria en ellos.
 
     separador
-    #t_2_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2.	Definición del alcance de un SGCN
     
     p En este punto se debe comprender que un SGCN está determinado por la cantidad de procesos y necesidades que tenga la organización. Por tanto, se hace necesario, un estudio sobre cuáles son los puntos críticos, definir el alcance del sistema de gestión, en otras palabras, hasta dónde se ejecutará el SGCN y qué procesos están amparados bajo ese alcance. Vea lo que representa este alcance:
@@ -93,14 +93,14 @@
         img(src='@/assets/curso/tema2/img03.png')
 
     separador
-    #t_2_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3.	Liderazgo
     
     p Siempre se ha escuchado que las empresas requieren líderes y procesos que permitan llevar a cabo ciertos componentes dentro de las organizaciones; pero la mayoría de veces el enfoque que se utiliza para el liderazgo es más llevado a una cadena de mando en donde existen personas que generan la creación de los procesos y otros que los ejecutan.
     
     .row.justify-content-center.mb-4
       .col-md-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img04.jpg')})`}"
           )(data-aos="fade-right")
@@ -123,7 +123,7 @@
         img(src='@/assets/curso/tema2/img05.png')
 
     separador
-    #t_2_4.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4.	Roles y responsabilidades
     
     p Los roles y responsabilidades son aspectos a considerar al momento de diseñar e implementar un SGCN. Se deben crear diferentes equipos que realizarán la ejecución y velarán por el cumplimiento de las actividades que se reflejan en el sistema de continuidad; para ello es necesario nombrar representantes y personal que ejecute dichas actividades. Ahora, siendo un poco más específicos, es necesario considerar algunas habilidades que deben cumplir los miembros del equipo para realizar un trabajo adecuado en la implementación y ejecución de un SGCN, los cuales se presentan en el siguiente recurso:
