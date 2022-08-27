@@ -21,7 +21,7 @@
     
     p Existen diferentes tipos de necesidades en una organización desde el enfoque de un SGCN. A continuación se desarrollan dichos aspectos.
 
-    ImagenInfograficaB.color-secundario.mb-5
+    ImagenInfograficaB.color-terciario.mb-5
       template(v-slot:imagen)
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img02.svg')

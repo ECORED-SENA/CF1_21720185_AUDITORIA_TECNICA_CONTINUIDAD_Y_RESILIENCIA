@@ -148,7 +148,9 @@
 
     .row.justify-content-center.cajon.color-primario.p-4.mb-4
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
-        img.w-75(src='@/assets/curso/tema1/img17.png')
+        .row.justify-content-center
+          .col-md-10
+            img(src='@/assets/curso/tema1/img17.png')
       .col-md-10.col-11
         p.mb-0 Por tanto, no es obligatorio que una organización implemente un SGCN; pero sí es es necesario para ser competitivos, eficientes y confiables, ya que se puede garantizar la continuidad de los procesos misionales de una organización. La implementación de un plan de continuidad al negocio trae consigo muchos aspectos positivos que valen la pena analizar y tener en cuenta. Hoy en día las empresas e industrias se han vuelto más competitivas y esto hace que sea necesario el invertir en maquinaria, personas y servicios para lograr mantenerse en los mercados actuales, sin dejar de lado, por supuesto, la calidad y eficiencia en la que se prestan los servicios, los cuales a su vez se fundamentan en las políticas, procesos y estrategias estipuladas por la empresa.      
 

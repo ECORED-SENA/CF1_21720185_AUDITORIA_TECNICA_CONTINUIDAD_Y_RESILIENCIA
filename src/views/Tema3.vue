@@ -51,13 +51,13 @@
     p Aunque la lista de todos los factores que pueden incidir en que los procesos del negocio o la planeación de un sistema de continuidad fracase puede llegar a ser innumerable, son los que se presentan con mayor frecuencia en las organizaciones, siendo el compromiso de la organización el que mayor incidencia puede generar. Hoy  en día se puede decir que la mayoría de los planes de contingencia están directamente relacionados con la tecnología, ya que esta se ha convertido en un bien transversal en los procesos de negocio y en estrategia competitiva, de allí parte la premisa de que los planes de contingencia se direccionan a ese componente tan fundamental en el funcionamiento de la empresa del Siglo XXI.
 
     .row.justify-content-center.mb-4
-      .col-md-8
+      .col-md-10
         .bloque-texto-g.color-acento-botones.item-right.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img05.jpg')})`}"
           )(data-aos="fade-left")
           .bloque-texto-g__texto.p-4
-            p Un ejemplo de ello es una institución bancaria que realiza transacciones de dinero, entre otros servicios, los cuales dependen prácticamente de un 90% de la tecnología. Si esta se ve afectada, todo el negocio se interrumpe y deja de funcionar, ocasionando pérdida y afectando el posicionamiento de la imagen corporativa.
+            p Un ejemplo de ello es una institución bancaria que realiza transacciones de dinero, entre otros servicios, los cuales dependen prácticamente de un 90% de la tecnología. Si esta se ve afectada, todo el negocio se interrumpe y deja de funcionar, ocasionando pérdida y afectando el posicionamiento de la imagen corporativa.<br><br>
             p.mb-0 La planeación permite evitar y corregir errores futuros de manera anticipada. Es una poderosa herramienta como estrategia de mejoramiento continuo del negocio, gestionada por comités que mantengan y ejecuten sus procesos para generar un impacto positivo en el mismo.
 
     p Los riesgos que se pueden presentar en la implementación de un SGCN están conectados regularmente al factor humano, lo que se traduce en una mala definición o en un alcance que no está estipulado de manera correcta, generando traumatismo en los procesos de negocio. De ahí que sea necesario que en la planeación del sistema de gestión se categorizan los riesgos y que estos sean evaluados por el equipo de trabajo para clasificarlos de acuerdo con la escala de bajo, medio y alto, y así saber cuáles son los que mayor incidencia tendrán dentro del sistema de gestión y poderlos controlar de manera efectiva y completa.

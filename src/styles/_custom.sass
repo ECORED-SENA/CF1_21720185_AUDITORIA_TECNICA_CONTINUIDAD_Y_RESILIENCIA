@@ -50,6 +50,9 @@
 .cajon.color-primario
   background-color: #D8E1FF
 
+.cajon.color-secundario:before
+  background-color: #FA4861
+
 .cajon.color-secundario
   background-color: #FFE5E9
 
@@ -91,11 +94,17 @@
   background-color: #F7CC54
   background-image: url("../assets/componentes/arrow-white.svg")
   transform: rotate(-180deg)
+  @media screen and (max-width: $bp-max-sm)
+    width: 35px
+    height: 35px
 
 .slyder-a__tipo-b .slyder-a__btn--sigt
   background-color: #F7CC54
   background-image: url("../assets/componentes/arrow-white.svg")
   transform: rotate(0deg)
+  @media screen and (max-width: $bp-max-sm)
+    width: 35px
+    height: 35px
 
 .slyder-a__bullets__item--active
   background-color: #F7CC54
