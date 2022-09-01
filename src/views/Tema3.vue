@@ -89,7 +89,7 @@
         .h4 Ejemplo
         p Una empresa de pedidos depende de su plataforma donde los clientes realizan los pedidos, y está configurada en los servidores de la organización. En este caso, <span style="color:#FA4861 !important; font-weight: bold;">si llega a fallar el servidor o la conectividad del mismo</span>, automáticamente la aplicación de pedidos quedará por fuera y los clientes no podrán realizar sus pedidos, perjudicando las ganancias del negocio y la imagen corporativa. Entonces, se debe <span style="color:#43A310 !important; font-weight: bold;">asignar los recursos y personas para que este servicio se encuentre vigente para los usuarios de manera continua</span> y en caso de ocurrir un incidente tener un plan de contingencia para que la continuidad y uso del sistema no se interrumpa.
       .col-md-11.cajon.color-acento-botones.p-4(data-aos="fade-right")
-        p Los riesgos en algunas ocasiones se pueden convertir en oportunidades. Esto quiere decir que la planeación e implementación de un sistema de gestión de continuidad favorece de manera positiva la competitividad del negocio, lo cual se ve reflejado en el uso de referentes internacionales tales como la Norma ISO 22301, en donde la mejora continua permite evidenciar su evolución, los riesgos que pueden presentarse en corto y mediano plazo y la creación e implementación estrategias, logrando que la organización siempre esté un paso delante de las situaciones de riesgo que se puedan presentar y evitar pausas o interrupciones en los procesos del negocio.
+        p.mb-0 Los riesgos en algunas ocasiones se pueden convertir en oportunidades. Esto quiere decir que la planeación e implementación de un sistema de gestión de continuidad favorece de manera positiva la competitividad del negocio, lo cual se ve reflejado en el uso de referentes internacionales tales como la Norma ISO 22301, en donde la mejora continua permite evidenciar su evolución, los riesgos que pueden presentarse en corto y mediano plazo y la creación e implementación estrategias, logrando que la organización siempre esté un paso delante de las situaciones de riesgo que se puedan presentar y evitar pausas o interrupciones en los procesos del negocio.
       
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -188,7 +188,7 @@
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/f4gr8Z15bKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p La documentación juega un papel fundamental, ya que esta soporta todos los procesos que se desarrollan en un SGCN. En algunas ocasiones, la documentación permite registrar las configuraciones, estrategias y procesos que están soportados en el plan de contingencia. Ahora bien, para poder realizar la recuperación de los procesos de negocio, dichos pasos o procedimientos se deben incluir dentro de la documentación, es a lo que se conoce como manual de procedimientos donde se estipulan las pautas y pasos a seguir para realizar el proceso de manera correcta. Dicha documentación es esencial para que la norma se vea aplicada. Existen varios factores a tener en cuenta con la documentación:
 
@@ -216,7 +216,7 @@
           .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/tema3/img16.png')
           .col-md-9.col-11(data-aos="fade-left")
-            p La documentación es importante para los procesos de negocio de la organización. Esto se encuentra soportado en los manuales de procedimientos que garantizan que los pasos y actividades que se realicen estén encaminados en la correcta recuperación del sistema, estandarizando las actividades a realizar y así garantizar la efectividad y buenas prácticas, además de la estipulación de los tiempos requeridos para ello .
+            p.mb-0 La documentación es importante para los procesos de negocio de la organización. Esto se encuentra soportado en los manuales de procedimientos que garantizan que los pasos y actividades que se realicen estén encaminados en la correcta recuperación del sistema, estandarizando las actividades a realizar y así garantizar la efectividad y buenas prácticas, además de la estipulación de los tiempos requeridos para ello .
 
 </template>
 

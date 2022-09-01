@@ -293,7 +293,7 @@
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img30.svg')
       .col-md-10
-        p Cuando se hace referencia al equilibrio de los procesos se está hablando del punto intermedio en donde todas las partes involucradas en la gestión de la continuidad se juntan y generan nuevos procesos que permiten observar un flujo continuo de mejora, lo que se ve reflejado en la productividad y competitividad del negocio. Lograr este equilibrio no es fácil, ya que requiere de inversión tanto de talento humano como tecnológico; pero es posible encontrar puntos de equilibrio donde cada proceso involucrado en el sistema de gestión de la continuidad aporten de manera equilibrada y efectiva.
+        p.mb-0 Cuando se hace referencia al equilibrio de los procesos se está hablando del punto intermedio en donde todas las partes involucradas en la gestión de la continuidad se juntan y generan nuevos procesos que permiten observar un flujo continuo de mejora, lo que se ve reflejado en la productividad y competitividad del negocio. Lograr este equilibrio no es fácil, ya que requiere de inversión tanto de talento humano como tecnológico; pero es posible encontrar puntos de equilibrio donde cada proceso involucrado en el sistema de gestión de la continuidad aporten de manera equilibrada y efectiva.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-md-3.col-6.mb-md-0.mb-4(data-aos="fade-right")
@@ -316,7 +316,7 @@
         img.w-75(src='@/assets/curso/tema1/img33.png')
       .col-md-10.col-11
         p Gestión de la continuidad del negocio - ISO 22301:2019
-        p Si se desea explorar un poco más sobre los procesos de la Norma ISO 22301 para la continuidad del negocio, se sugiere consultar el video denominado Gestión de la continuidad del negocio - ISO 22301:2019 Plan de continuidad del negocio ISO 22301. Recurso que podrá ubicar en los materiales complementarios del componente.
+        p.mb-0 Si se desea explorar un poco más sobre los procesos de la Norma ISO 22301 para la continuidad del negocio, se sugiere consultar el video denominado Gestión de la continuidad del negocio - ISO 22301:2019 Plan de continuidad del negocio ISO 22301. Recurso que podrá ubicar en los materiales complementarios del componente.
 
     p Se pude resumir, de alguna manera, que la Norma ISO 22301 permite garantizar no solo los procesos de negocio sino también su reactivación en caso de surgir inconvenientes con los mismos. Se debe destacar de esta norma el proveer de los mecanismos y protocolos para realizar de manera no traumática este proceso, y en el que además sea lo más transparente posible para quienes tienen acceso al mismo. 
     p En ejemplos anteriores se había conversado sobre el sistema bancario y lo importante que es la tecnología en su funcionamiento. Ahora se retoma dicho ejemplo con enfoque a las plataformas de transacciones o también llamadas banca virtual, para evidenciar en este caso, la importancia de la transparencia en estos protocolos de recuperación del sistema. Vea esta explicación en el siguiente recurso:

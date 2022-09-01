@@ -13,7 +13,7 @@
       .col-md-9
         p Antes de iniciar en la temática vale la pena resaltar que los sistemas de gestión de continuidad del negocio permiten garantizar la ejecución de servicios que requiere la organización para cumplir con sus procesos misionales, brindando de esta forma un parte de tranquilidad a los socios y clientes de la misma, evitando además, pérdidas económicas y de imagen corporativa en un periodo de tiempo corto o de mediano plazo.
         .cajon.color-acento-contenido.p-4(data-aos="fade-left")
-          p La empresa como gestora de procesos e implementadora de sistemas necesita mantener dentro de su entidad una alineación integral entre sus procesos de servicio, las necesidades de la organización, el alcance de sus planes y los objetivos misionales de la misma, contribuyendo a equipos de trabajo cohesionados, en donde el liderazgo y los roles que desempeña cada uno son aspectos primordiales.
+          p.mb-0 La empresa como gestora de procesos e implementadora de sistemas necesita mantener dentro de su entidad una alineación integral entre sus procesos de servicio, las necesidades de la organización, el alcance de sus planes y los objetivos misionales de la misma, contribuyendo a equipos de trabajo cohesionados, en donde el liderazgo y los roles que desempeña cada uno son aspectos primordiales.
     
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -79,7 +79,7 @@
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/qpuZFGZG8Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p Las necesidades del negocio se deben considerar como la oportunidad de poder potenciar aquellos procesos y servicios que son de vital importancia para el funcionamiento de la organización. Cualquiera que sea su actividad económica siempre se tendrá como factor decisivo qué se debe priorizar dentro de la organización. En la mayoría de los casos no se puede realizar una implementación completa de los procesos, por ello es necesario definir una serie de etapas que permitan ejecutar con mayor rapidez aquellos con prioridad alta y los que no requieran de una atención prioritaria serán aplazados en el cronograma de implementación, tal como se ilustra en el siguiente recurso.
   
@@ -146,7 +146,7 @@
 
 
     .BG12.p-4.mb-4(data-aos="fade-right")
-      p En algunas ocasiones es necesario crear grupos y comités de dirección para que estos realicen asesorías, guías y supervisión de los procesos. Crear equipos de trabajo con el propósito estratégico de resolver los incidentes que se puedan presentar y contribuir a dar soluciones concretas en los tiempos asignados en el SGCN.
+      p.mb-0 En algunas ocasiones es necesario crear grupos y comités de dirección para que estos realicen asesorías, guías y supervisión de los procesos. Crear equipos de trabajo con el propósito estratégico de resolver los incidentes que se puedan presentar y contribuir a dar soluciones concretas en los tiempos asignados en el SGCN.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-3.col-6.mb-md-0.mb-4(data-aos="fade-right")
@@ -161,18 +161,18 @@
         figure.mb-4
           img(src='@/assets/curso/tema2/img08.svg')
         .BG03.p-4
-          p Son funciones asignadas de acuerdo con las competencias que tiene cada miembro del equipo.
+          p.mb-0 Son funciones asignadas de acuerdo con las competencias que tiene cada miembro del equipo.
       .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-left")
         figure.mb-4
           img(src='@/assets/curso/tema2/img09.svg')
         .BG03.p-4
-          p Son aquellos compromisos asignados al momento que asume el rol dentro del equipo de trabajo.
+          p.mb-0 Son aquellos compromisos asignados al momento que asume el rol dentro del equipo de trabajo.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-md-10.cajon.color-secundario.p-4
         p #[strong Las responsabilidades existen en dos ámbitos en un SGCN]: responsabilidades individuales y grupales.
         p Aunque todo en un sistema de SGCN está ligado de manera integrada, es responsabilidad de cada miembro cumplir con las funciones que se requieren; sin embargo, al estar ligado en un sistema de gestión, los procesos que no ejecuten algunos miembros del equipo recaerán de manera directa en los objetivos del equipo en general. Es por eso que el equipo debe asumir, de manera integrada, la responsabilidad conjunta para que se cumplan los objetivos.
-        p Si un miembro del equipo está teniendo dificultad en cumplir el objetivo por cualquier motivo los demás miembros deben prestar ayuda para que este pueda ser implementado de manera adecuada. Siempre debe primar el  el objetivo común y no el individual.
+        p.mb-0 Si un miembro del equipo está teniendo dificultad en cumplir el objetivo por cualquier motivo los demás miembros deben prestar ayuda para que este pueda ser implementado de manera adecuada. Siempre debe primar el  el objetivo común y no el individual.
 
 
 
