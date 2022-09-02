@@ -111,9 +111,17 @@
 
     p La sucursal de un supermercado, por ejemplo, en su área energética es otro caso que se puede estudiar y lo que puede ver en el siguiente video:
 
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .BG14.p-4.mb-4
+      .row.justify-content-center.align-items-end.mb-4
+        .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img45.png')
+        .col-md-7.mb-4
+          .BG15.p-4.mb-4(data-aos="fade-left")
+            .h4 La sucursal de un supermercado no cuenta con un respaldo energético, como una planta de energía o UPS,  que permita mantener los equipos encendidos: neveras, dispositivos de seguridad, la red vigente y los sistemas de información para funcionar en el manejo de inventarios, pedidos, facturación, entre otros procesos internos.
+          p La energía eléctrica, entonces, es uno de los recursos que permite que el negocio funcione. Si esta se va, el negocio no podría funcionar. En la implementación del SGCN, entonces, se debe priorizar como riesgo que deja inoperable el negocio, el fluido eléctrico, y por tal razón, se deben hacer todos los esfuerzos para ejecutar un plan de contingencia, el cual podría ser contar con un respaldo eléctrico para que el negocio siga produciendo y funcionando, a pesar de que se carece del servicio de energía eléctrica normal.
+          p.mb-0 Este caso evidencia la importancia de garantizar los servicios de una empresa. Pues si este no se toma en serio y dicha situación se vuelve repetitiva, los clientes, muy seguramente, optarán por comprar en otro lugar o dejar de ir al negocio, ya que este no garantiza su funcionamiento. 
+        .col-12
+          .h4.mt-4 Este ejemplo es muy común en una gran parte de las empresas donde no se realiza un debido análisis del riesgo funcional del negocio para conocer cuáles son los factores de riesgo que pueden generar interrupción en sus procesos empresariales y de esta manera, diseñar planes de contingencia que garanticen su operatividad a pesar de las circunstancias que se presenten.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.order-md-1.order-2

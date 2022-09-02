@@ -77,9 +77,31 @@
     
     p En este punto se debe comprender que un SGCN está determinado por la cantidad de procesos y necesidades que tenga la organización. Por tanto, se hace necesario, un estudio sobre cuáles son los puntos críticos, definir el alcance del sistema de gestión, en otras palabras, hasta dónde se ejecutará el SGCN y qué procesos están amparados bajo ese alcance. Vea lo que representa este alcance:
     
-    figure.mb-5(data-aos="zoom-in")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/qpuZFGZG8Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+
+
+    .BG14.p-4.mb-4
+      .row.justify-content-center.align-items-end.mb-4
+        .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img10.png')
+        .col-md-8.mb-4
+          .row.mb-4(data-aos="fade-left")
+            .col-auto.BG16.p-2
+              .h4.mb-0  Para ilustrar mejor este aspecto del alcance, vea el siguiente ejemplo:
+          p Suponga una situación en la que se desea adquirir un producto en un lugar específico. Sin embargo, cuando ya se va a tomar la decisión se piensa inmediatamente en el presupuesto para no cometer un error en invertir más de lo que se tiene. Este mismo principio se aplica a los sistemas de gestión de la continuidad de un negocio. Se tienen múltiples procesos, pero se debe definir cuáles son los que requieren mayor atención para darles prioridad.
+          .row.justify-content-center
+            .col-md-5.col-10.tarjeta-avatar.mb-md-0.mb-4
+              img(src='@/assets/curso/tema2/img11.png' alt='AvatarTop')
+              .BGR17.p-4
+                p.mt-4 Procesos que pueden generar caos
+            .col-md-5.col-10.tarjeta-avatar
+              img(src='@/assets/curso/tema2/img12.png' alt='AvatarTop')
+              .BGR17.p-4
+                p.mt-4 Procesos que se pueden prevenir
+      p Regularmente, se toman aquellos procesos que su interrupción genera algún caos o coloca en riesgo la correcta ejecución de los procesos de la organización. También se consideran aquellos que dependiendo de su alcance y lo que se busque prevenir, el presupuesto, los recursos humanos y tecnológicos están cubiertos y por tanto, son factibles para ponerlos en marcha. Definir el alcance de manera correcta es indispensable para conocer las prioridades que se tienen dentro de la organización, en el que el estudio de presupuesto es la base para que las acciones a realizar estén conectadas con la realidad. 
+      p #[strong El alcance, entonces, es la descripción de todos los procesos y acciones a priorizar, teniendo en cuenta sus recursos y limitaciones; información de entendimiento en común para todo el equipo empresarial].
+
+
 
     p Las necesidades del negocio se deben considerar como la oportunidad de poder potenciar aquellos procesos y servicios que son de vital importancia para el funcionamiento de la organización. Cualquiera que sea su actividad económica siempre se tendrá como factor decisivo qué se debe priorizar dentro de la organización. En la mayoría de los casos no se puede realizar una implementación completa de los procesos, por ello es necesario definir una serie de etapas que permitan ejecutar con mayor rapidez aquellos con prioridad alta y los que no requieran de una atención prioritaria serán aplazados en el cronograma de implementación, tal como se ilustra en el siguiente recurso.
   
