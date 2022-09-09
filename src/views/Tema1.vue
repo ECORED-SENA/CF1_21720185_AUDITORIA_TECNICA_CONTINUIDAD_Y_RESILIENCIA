@@ -81,7 +81,7 @@
               .col-md-10.mb-4
                 img(src='@/assets/curso/tema1/img10.png')
               .col-md-10
-                p Para una entidad bancaria es de vital importancia los sistemas de información, ya que estos acercan al negocio con las necesidades de los clientes y, permiten que sus procesos funcionen. 
+                p Las redes sociales hoy no solo prestan los servicios de comunicación, sino también de publicidad y operaciones de comercio electrónico.
             .row.justify-content-center
               .col-md-10.mb-4
                 img(src='@/assets/curso/tema1/img11.png')
@@ -109,7 +109,7 @@
           .bloque-texto-g__texto.p-5
             p.mb-0 La implementación de un SGCN también se puede mirar como un proceso que genera prestigio a la organización, ya que se está garantizando el funcionamiento y continuidad de los procesos y servicios de negocio, hasta cuando este tenga inconvenientes internos, manteniendo la misma calidad y eficacia.
 
-    p La sucursal de un supermercado, por ejemplo, en su área energética es otro caso que se puede estudiar y lo que puede ver en el siguiente video:
+    p La sucursal de un supermercado, por ejemplo, en su área energética es otro caso que se puede estudiar y lo que puede ver a continuación:
 
     .BG14.p-4.mb-4
       .row.justify-content-center.align-items-end.mb-4
@@ -160,7 +160,7 @@
           .col-md-10
             img(src='@/assets/curso/tema1/img17.png')
       .col-md-10.col-11
-        p.mb-0 Por tanto, no es obligatorio que una organización implemente un SGCN; pero sí es es necesario para ser competitivos, eficientes y confiables, ya que se puede garantizar la continuidad de los procesos misionales de una organización. La implementación de un plan de continuidad al negocio trae consigo muchos aspectos positivos que valen la pena analizar y tener en cuenta. Hoy en día las empresas e industrias se han vuelto más competitivas y esto hace que sea necesario el invertir en maquinaria, personas y servicios para lograr mantenerse en los mercados actuales, sin dejar de lado, por supuesto, la calidad y eficiencia en la que se prestan los servicios, los cuales a su vez se fundamentan en las políticas, procesos y estrategias estipuladas por la empresa.      
+        p.mb-0 Por tanto, no es obligatorio que una organización implemente un SGCN; pero sí es necesario para ser competitivos, eficientes y confiables, ya que se puede garantizar la continuidad de los procesos misionales de una organización. La implementación de un plan de continuidad al negocio trae consigo muchos aspectos positivos que valen la pena analizar y tener en cuenta. Hoy en día las empresas e industrias se han vuelto más competitivas y esto hace que sea necesario el invertir en maquinaria, personas y servicios para lograr mantenerse en los mercados actuales, sin dejar de lado, por supuesto, la calidad y eficiencia en la que se prestan los servicios, los cuales a su vez se fundamentan en las políticas, procesos y estrategias estipuladas por la empresa.      
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -323,10 +323,10 @@
       .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
         img.w-75(src='@/assets/curso/tema1/img33.png')
       .col-md-10.col-11
-        p Gestión de la continuidad del negocio - ISO 22301:2019
-        p.mb-0 Si se desea explorar un poco más sobre los procesos de la Norma ISO 22301 para la continuidad del negocio, se sugiere consultar el video denominado Gestión de la continuidad del negocio - ISO 22301:2019 Plan de continuidad del negocio ISO 22301. Recurso que podrá ubicar en los materiales complementarios del componente.
+        .h4 Gestión de la continuidad del negocio - ISO 22301:2019
+        p.mb-0 Si se desea explorar un poco más sobre los procesos de la Norma ISO 22301 para la continuidad del negocio, se sugiere consultar el video denominado #[strong Gestión de la continuidad del negocio - ISO 22301:2019 Plan de continuidad del negocio ISO 22301]. Recurso que podrá ubicar en los materiales complementarios del componente.
 
-    p Se pude resumir, de alguna manera, que la Norma ISO 22301 permite garantizar no solo los procesos de negocio sino también su reactivación en caso de surgir inconvenientes con los mismos. Se debe destacar de esta norma el proveer de los mecanismos y protocolos para realizar de manera no traumática este proceso, y en el que además sea lo más transparente posible para quienes tienen acceso al mismo. 
+    p Se puede resumir, de alguna manera, que la Norma ISO 22301 permite garantizar no solo los procesos de negocio, sino también su reactivación en caso de surgir inconvenientes con los mismos. Se debe destacar de esta norma el proveer de los mecanismos y protocolos para realizar de manera no traumática este proceso, y en el que además sea lo más transparente posible para quienes tienen acceso al mismo. 
     p En ejemplos anteriores se había conversado sobre el sistema bancario y lo importante que es la tecnología en su funcionamiento. Ahora se retoma dicho ejemplo con enfoque a las plataformas de transacciones o también llamadas banca virtual, para evidenciar en este caso, la importancia de la transparencia en estos protocolos de recuperación del sistema. Vea esta explicación en el siguiente recurso:
 
     LineaTiempoE.color-acento-contenido

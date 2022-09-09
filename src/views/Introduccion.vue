@@ -22,7 +22,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/intro/img01.png')})`}"
           )(data-aos="fade-right")
           .bloque-texto-g__texto.p-4
-            p.mb-0 La apertura de los mercados actuales requiere que las organizaciones no solo inviertan en infraestructura y equipos para lograr los procesos misionales, sino que también aseguren esos servicios y productos para mantenerse vigentes, pues se sabe que los mercados cambian de manera frecuente y son competitivos en la generación de confianza para los inversionistas .
+            p.mb-0 La apertura de los mercados actuales requiere que las organizaciones no solo inviertan en infraestructura y equipos para lograr los procesos misionales, sino que también aseguren esos servicios y productos para mantenerse vigentes, pues se sabe que los mercados cambian de manera frecuente y son competitivos en la generación de confianza para los inversionistas.
     
 </template>
 
