@@ -194,7 +194,7 @@
       .col-md-10.cajon.color-secundario.p-4
         p #[strong Las responsabilidades existen en dos ámbitos en un SGCN]: responsabilidades individuales y grupales.
         p Aunque todo en un sistema de SGCN está ligado de manera integrada, es responsabilidad de cada miembro cumplir con las funciones que se requieren; sin embargo, al estar ligado en un sistema de gestión, los procesos que no ejecuten algunos miembros del equipo recaerán de manera directa en los objetivos del equipo en general. Es por eso que el equipo debe asumir, de manera integrada, la responsabilidad conjunta para que se cumplan los objetivos.
-        p.mb-0 Si un miembro del equipo está teniendo dificultad en cumplir el objetivo por cualquier motivo los demás miembros deben prestar ayuda para que este pueda ser implementado de manera adecuada. Siempre debe primar el  el objetivo común y no el individual.
+        p.mb-0 Si un miembro del equipo está teniendo dificultad en cumplir el objetivo por cualquier motivo los demás miembros deben prestar ayuda para que este pueda ser implementado de manera adecuada. Siempre debe primar el objetivo común y no el individual.
 
 
 

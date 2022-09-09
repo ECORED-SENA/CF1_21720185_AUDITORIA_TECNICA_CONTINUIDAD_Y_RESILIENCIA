@@ -14,7 +14,7 @@
         img(src='@/assets/curso/tema3/img01.png')
       .col-md-6.col-10.mb-md-0.mb-4
         .BG06.p-4.mb-4(data-aos="fade-left")
-          p.mb-0 Definición del alcance del SGCN debido a que uno de los problemas más frecuentes que se pueden presentar con respecto a la implementación de un sistema de gestión de la continuidad es no realizar un correcta definición del alcance, el cual tiene como función principal definir no solo los actores del proceso, sino también la cantidad de recursos que este va a requerir para implementarse sin inconvenientes y funcionar en el tiempo.
+          p.mb-0 Definición del alcance del SGCN debido a que uno de los problemas más frecuentes que se pueden presentar con respecto a la implementación de un sistema de gestión de la continuidad es no realizar una correcta definición del alcance, el cual tiene como función principal definir no solo los actores del proceso, sino también la cantidad de recursos que este va a requerir para implementarse sin inconvenientes y funcionar en el tiempo.
         .BG07.p-4.mb-4(data-aos="fade-left")
           p.mb-0 Creación de las políticas necesarias para que todos los funcionarios y empleados giren en torno a las actividades a desarrollar en el sistema de gestión.
         .BG08.p-4(data-aos="fade-left")
@@ -176,7 +176,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img14.jpg')})`}"
           )(data-aos="fade-right")
           .bloque-texto-g__texto.p-5
-            p.mb-0 Un ejemplo que se puede decir para este aspecto es el cambio de los equipos de una oficina. Este hecho implica mejorar la calidad de uso de los empleados y por ende, sus procesos que se soportan a través de ellos, lo que a su vez implica que se deben modificar los planes de contingencia adecuados para estos nuevos dispositivos .
+            p.mb-0 Un ejemplo que se puede decir para este aspecto es el cambio de los equipos de una oficina. Este hecho implica mejorar la calidad de uso de los empleados y por ende, sus procesos que se soportan a través de ellos, lo que a su vez implica que se deben modificar los planes de contingencia adecuados para estos nuevos dispositivos.
 
     p En otras palabras, todo plan de contingencia deberá ser modificado de acuerdo con los cambios y necesidades contenidas en el plan de contingencia para así garantizar el correcto funcionamiento del plan.
 
@@ -216,7 +216,7 @@
           .col-md-2.col-4.mb-md-0.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/tema3/img16.png')
           .col-md-9.col-11(data-aos="fade-left")
-            p.mb-0 La documentación es importante para los procesos de negocio de la organización. Esto se encuentra soportado en los manuales de procedimientos que garantizan que los pasos y actividades que se realicen estén encaminados en la correcta recuperación del sistema, estandarizando las actividades a realizar y así garantizar la efectividad y buenas prácticas, además de la estipulación de los tiempos requeridos para ello .
+            p.mb-0 La documentación es importante para los procesos de negocio de la organización. Esto se encuentra soportado en los manuales de procedimientos que garantizan que los pasos y actividades que se realicen estén encaminados en la correcta recuperación del sistema, estandarizando las actividades a realizar y así garantizar la efectividad y buenas prácticas, además de la estipulación de los tiempos requeridos para ello.
 
 </template>
 
